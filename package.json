@@ -1,0 +1,32 @@
+{
+  "name": "codeceptjs-playground",
+  "version": "1.0.0",
+  "description": "integration and e2e tests using BDD and webdriverIO",
+  "main": "index.js",
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^5.11.2",
+    "codeceptjs": "^2.2.1"
+  },
+  "devDependencies": {
+    "webdriverio": "^5.11.13"
+  },
+  "scripts": {
+    "test": "codeceptjs run --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdeekonda/codeceptjs-playground.git"
+  },
+  "keywords": [
+    "bdd",
+    "webdriverio",
+    "e2e",
+    "integration"
+  ],
+  "author": "Jagadeesh Deekonda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdeekonda/codeceptjs-playground/issues"
+  },
+  "homepage": "https://github.com/jdeekonda/codeceptjs-playground#readme"
+}
